@@ -35,6 +35,15 @@ class CategoryMealsScreen extends StatelessWidget {
         ),
         itemCount: categoryMeals.length,
       ),
+//      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+//      floatingActionButton: FloatingActionButton(
+//        child: Icon(
+//          Icons.delete,
+//        ),
+//        onPressed: () {
+//          Navigator.pop(context);
+//        },
+//      ),
     );
   }
 }
